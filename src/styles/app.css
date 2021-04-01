@@ -22,7 +22,7 @@ what's here to work the way you'd like it to.
 :root {
 
     /* Colours */
-    --color-primary: #3eb0ef;
+    --color-primary: ;
     --color-base: #15171A;
     --color-secondary: #5B7A81;
     --color-border: #c7d5d8;
@@ -578,12 +578,14 @@ h6 {
 
 .content-title {
     margin: 0 0 0.8em;
-    font-size: 5rem;
+    font-size: 2.9rem;
+    margin-bottom: 40px;
+    margin-top: -30px;
 }
 @media (max-width: 500px) {
     .content-title {
         margin: 0.8em 0;
-        font-size: 3.4rem;
+        font-size: 2.6rem;
     }
     .content {
         font-size: 1.8rem;
@@ -664,11 +666,12 @@ h6 {
 
 .site-head {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     color: #fff;
     background: var(--color-base);
     background-position: center;
     background-size: cover;
+
 }
 
 .site-head .container{
@@ -731,6 +734,16 @@ h6 {
     line-height: 1.3em;
 }
 
+.site-banner-title-menu{
+    font-family: var(--font-logo) !important;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 4rem;
+    line-height: 1.3em;
+    font-size: 2em;
+}
+
 .site-banner-desc {
     margin: 5px 0 0 0;
     padding: 0;
@@ -769,7 +782,11 @@ h6 {
 /* ---------------------------------------------------------- */
 
 .site-main {
-    padding: 4vw 0;
+    background:#fff !important;
+    padding: 5vw 0;
+    margin-top: -35px;
+    border-radius: 35px !important;
+    box-shadow: 0 2px 20px -6px rgba(24,27,30,.14);
 }
 
 /* Index
@@ -813,6 +830,7 @@ h6 {
 .post-card-title {
     margin: 0 0 10px 0;
     padding: 0;
+    color: var(--color-primary)
 }
 
 .post-card-excerpt {
@@ -826,6 +844,8 @@ h6 {
     height: 200px;
     background: var(--color-secondary) no-repeat center center;
     background-size: cover;
+    border-radius: 5px;
+    box-shadow:0 2px 20px -6px rgba(24,27,30,.5);
 }
 
 .post-card-footer {
@@ -995,9 +1015,11 @@ h6 {
 
 .site-foot {
     padding: 20px 0 40px 0;
-    color: rgba(255,255,255,0.7);
+    color: rgba(102, 102, 102, 0.7);
     font-size: 1.3rem;
-    background: var(--color-base);
+    background: rgb(231, 231, 231);
+    color: var(--color-secondary);
+    border-top: 1px dashed rgb(122, 121, 121);
 }
 
 .site-foot-nav {
@@ -1007,12 +1029,12 @@ h6 {
 }
 
 .site-foot-nav a {
-    color: rgba(255,255,255,0.7);
+    color: var(--color-secondary);
 }
 
 .site-foot-nav a:hover {
     text-decoration: none;
-    color: rgba(255,255,255,1);
+    color: rgb(175, 175, 175);
 }
 
 .site-foot-nav-right a {

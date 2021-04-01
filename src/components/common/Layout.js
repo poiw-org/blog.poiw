@@ -41,7 +41,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 <div className="site-mast-left">
                                 { !isHome ?
                                     <Link to="/">
-                                        <h1 className="site-banner-title">{site.title}</h1>
+                                        <h1 className="site-banner-title-menu">{site.title}</h1>
                                     </Link>
                                     :""
                                 }
