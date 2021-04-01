@@ -200,6 +200,13 @@ sup {
     line-height: 0;
     vertical-align: baseline;
 }
+figcaption{
+    font-size: 0.6em;
+    font-weight: 400;
+}
+.kg-card{
+    text-align: center;
+}
 sup {
     top: -0.5em;
 }
