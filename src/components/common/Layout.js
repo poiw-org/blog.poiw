@@ -82,7 +82,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
                             <div className="site-foot-nav-left">
-                                <Link to="/">{site.title}</Link> © 2021 &mdash; Published with <a className="site-foot-nav-item" href="https://ghost.org" target="_blank" rel="noopener noreferrer">Ghost</a>
+                                Διανέμεται με άδεια <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.el">CC BY-NC-SA 4.0</a> &mdash; Φτιάχτηκε με <a className="site-foot-nav-item" href="https://ghost.org" target="_blank" rel="noopener noreferrer">Ghost</a> και Gatsby.<br/>Photo by <a href="https://unsplash.com/@a2eorigins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Perez</a> on <a href="https://unsplash.com/s/photos/pattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
                             </div>
                             <div className="site-foot-nav-right">
                                 <Navigation data={site.navigation} navClass="site-foot-nav-item" />
