@@ -1,5 +1,5 @@
 [build]
-  command = "NODE_ENV=production gatsby build"
+  command = "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true NODE_ENV=production gatsby build --log-pages"
   publish = "public/"
 
 [template]
