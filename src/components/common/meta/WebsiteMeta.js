@@ -8,7 +8,7 @@ import url from 'url'
 import ImageMeta from './ImageMeta'
 import config from '../../../utils/siteConfig'
 
-const WebsiteMeta = ({ data, settings, canonical, title, description, image, type }) => {
+const WebsiteMeta = ({ data, settings, canonical, title, description, image, type, isHome }) => {
     settings = settings.allGhostSettings.edges[0].node
 
     const publisherLogo = url.resolve(config.siteUrl, (settings.logo || config.siteIcon))
@@ -50,7 +50,11 @@ const WebsiteMeta = ({ data, settings, canonical, title, description, image, typ
     return (
         <>
             <Helmet>
-                <title>{title}</title>
+                {
+                    isHome ? (
+                        <title>{title}</title>
+                    ) : (<title>po/iw ~ hackerspace & dev community</title>)
+                }
                 <meta name="description" content={description} />
                 <link rel="canonical" href={canonical} />
                 <meta property="og:site_name" content={settings.title} />

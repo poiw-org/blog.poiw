@@ -1,3 +1,5 @@
+// require(`./src/styles/global.css`)
+
 /* eslint-disable */
 /**
  * Trust All Scripts
