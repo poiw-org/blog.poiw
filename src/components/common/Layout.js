@@ -64,7 +64,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     <Navigation data={site.navigation} navClass="site-nav-item" />
                                 </div>
                                 <div className="site-nav-right">
-                                    <Link className="site-nav-button" to="https://auth.poiw.org/flows/new-member">Γίνε μέλος</Link>
+                                    <Link className="site-nav-button" to="https://chat.poiw.org">CHAT / ΓΙΝΕ ΜΕΛΟΣ</Link>
                                 </div>
                             </nav>
                         </div>
