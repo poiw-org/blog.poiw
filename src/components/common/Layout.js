@@ -64,7 +64,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     <Navigation data={site.navigation} navClass="site-nav-item" />
                                 </div>
                                 <div className="site-nav-right">
-                                    <Link className="site-nav-button" to="https://discord.gg/u3hJNGjRSU">CHAT / ΓΙΝΕ ΜΕΛΟΣ</Link>
+                                    <Link className="site-nav-button" to="https://discord.gg/4cDZaQjrTx">CHAT / ΓΙΝΕ ΜΕΛΟΣ</Link>
                                 </div>
                             </nav>
                         </div>
